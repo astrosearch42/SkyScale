@@ -31,7 +31,7 @@ To use a custom icon:
 
 The fastest and easiest way to use SkyScale is to download the pre-built executable:
 
-1. Download the file `SkyScale.exe`.
+1. Download the file `!Executable/SkyScale.exe`.
 2. Place `SkyScale.exe` wherever you want (Desktop, Documents, external drive, etc.).
 3. Double-click `SkyScale.exe` to launch the application. No need to install Python or any dependencies.
 4. (Optional) Create a shortcut for quick access: right-click on `SkyScale.exe` → "Create shortcut" → move the shortcut to your Desktop.
