@@ -15,16 +15,6 @@ SkyScale is a cross-platform PyQt5 application for visualizing, measuring, and c
 - Build a standalone executable (Windows)
 - Batch convert SVG to ICO/PNG for app icons (CloudConvert API supported)
 
-## Icon Conversion (SVG to ICO/PNG)
-To use a custom icon:
-1. Place your SVG file(s) in `objects_png/Icon/`.
-2. Use the provided script to convert all SVGs to ICO and PNG:
-   ```bash
-   python objects_png/Icon/svg2ico-png.py
-   ```
-   - Requires a CloudConvert API key (see script for details), and so a limited usage (10 conversions a day).
-   - Alternatively, use any online converter (e.g. https://cloudconvert.com/svg-to-ico) and place the resulting `icon.ico` in `objects_png/Icon/`.
-
 ## Installation
 
 ### Quick & Easy Installation with the Executable
@@ -110,6 +100,17 @@ sudo apt install python3.11-venv git binutils
 - Open images, draw segments, add reference objects, and save your presets.
   (Images are provided in the folder `Assets/Examples/` to test by yourself.)
 - For advanced usage and troubleshooting, see the code comments and issues on GitHub.
+
+## Icon Conversion (SVG to ICO/PNG)
+To use a custom icon:
+1. Place your SVG file(s) in `objects_png/Icon/`.
+2. Use the provided script to convert all SVGs to ICO and PNG:
+   ```bash
+   python objects_png/Icon/svg2ico-png.py
+   ```
+   - Requires a CloudConvert API key (see script for details), and so a limited usage (10 conversions a day).
+   - Alternatively, use any online converter (e.g. https://cloudconvert.com/svg-to-ico) and place the resulting `icon.ico` in `objects_png/Icon/`.
+
 
 ## Author
 - GitHub: [Maxime Bertrand](https://github.com/astrosearch42)
